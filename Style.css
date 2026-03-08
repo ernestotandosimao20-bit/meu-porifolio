@@ -10,7 +10,7 @@ background:#0f172a;
 color:white;
 }
 
-header{
+/*header{
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -19,6 +19,36 @@ background:#020617;
 position:sticky;
 top:0;
 z-index: 3;
+}*/
+/* MENU HAMBURGUER */
+
+.menu-toggle{
+display:none;
+font-size:30px;
+cursor:pointer;
+}
+/* RESPONSIVO */
+@media(max-width:768px){
+nav{
+position:absolute;
+top:70px;
+right:0;
+background:#020617;
+width:200px;
+flex-direction:column;
+display:none;
+padding:20px;
+}
+nav a{
+margin:10px 0;
+display:block;
+}
+nav.active{
+display:flex;
+}
+.menu-toggle{
+display:block;
+}
 }
 
 .logo{
