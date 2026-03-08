@@ -34,9 +34,3 @@ button.addEventListener("click",()=>{
   const body=document.body
   body.classList.toggle("light")
 })
-
-const toggle = document.getElementById("menu-toggle")
-const menu = document.getElementById("menu")
-toggle.onclick = function(){
-menu.classList.toggle("active")
-}
